@@ -1,10 +1,10 @@
  
-import React,{useEffect,useState} from 'react'
+// eslint-disable-next-line no-unused-vars
+import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
 import {styles} from '../styles'
 import {navLinks} from '../constants'
 import {logo,menu,close} from '../assets'
-import { link } from 'framer-motion/client'
 
  
 Link
@@ -24,8 +24,8 @@ const Navbar = () => {
           }}
           >
             <img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
-            <p className='text-white text-[18px] font-bold cursor-pointer'>Shariar <span
-            className='sm:block hidden'> |JavaScript Master</span></p>
+            <p className='text-white text-[18px] font-bold cursor-pointer'>Shariar &nbsp;<span
+            >| JavaScript Master</span></p>
           </Link>
 
           {/* Menu option */}

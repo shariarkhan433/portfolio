@@ -48,17 +48,15 @@ const Works = () => {
   return (
     <>
     <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My Projects</p>
-        <h2 className={styles.sectionHeadText}>Projects.</h2>
+        {/* <p className={styles.sectionSubText}>My Projects</p> */}
+        <h2 className={styles.sectionHeadText}>My Projects</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p variants={fadeIn("","",0.1)}
         className="mt-3 text-secondary test-[17px] max-w-3xl leading-[30px]"
         >
-          VRButton.createButton() does two important things: It creates a 
-          button which indicates VR compatibility. Besides, it initiates a 
-          VR session if the user activates the button. The only thing you 
-          have to do is to add the following line of code to your app.
+          This section showcases some of my recent projects, demonstrating my skills in web development, Problem Solving,
+           and Debugging skills. Each project highlights a unique challenge and my approach to solving it.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
@@ -74,5 +72,5 @@ const Works = () => {
     </>
   )
 }
-const wrappedWorks = SectionWrapper(Works,"")
+const wrappedWorks = SectionWrapper(Works,"work")
 export default wrappedWorks

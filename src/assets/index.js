@@ -8,27 +8,27 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+import angular from "./tech/angular.png";
+import python from "./tech/python.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import c from "./tech/c.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import cpp from "./tech/cpp.png";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import kuet from "./company/kuet.png";
+import person from "./company/person.png";
+import bkash from "./company/bkash.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import weather from "./weather.png";
+import product from "./productify.png";
+import news from "./news.png";
 
 export {
   logo,
@@ -40,23 +40,23 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
+  c,
+  python,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
   reactjs,
-  redux,
+  angular,
   tailwind,
   typescript,
-  threejs,
+  cpp,
   meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  kuet,
+  person,
+  bkash,
+  weather,
+  product,
+  news,
 };

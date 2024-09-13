@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unknown-property */
 import { motion } from 'framer-motion'
-import React from 'react'
 import { Tilt } from 'react-tilt'
 import { styles } from '../styles'
 import { services } from '../constants'
@@ -39,12 +38,9 @@ const About = () => {
     </motion.div>
     <motion.p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]" 
     variants={fadeIn("","",0.1,1)}>
-    Light probes are an alternative way of adding light to a 3D scene.
-     Unlike classical light sources (e.g. directional, point or spot 
-     lights), light probes do not emit light. Instead they store 
-     information about light passing through 3D space. During rendering,
-      the light that hits a 3D object is approximated by using the data 
-      from the light probe.
+ I am a dedicated web developer with a strong foundation in Angular and React. Fueled by a passion for technology and a desire to 
+ continuous learning. I am committed to creating innovative and user-friendly web applications. With a focus on staying up-to-date with the
+  latest industry trends. I enjoy exploring new technologies and expanding my skills.
     </motion.p>
     <div className="mt-20 flex flex-wrap gap-10">
       {services.map((service,index)=>(

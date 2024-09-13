@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./s.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,7 +29,8 @@ import bkash from "./company/bkash.png";
 import weather from "./weather.png";
 import product from "./productify.png";
 import news from "./news.png";
-
+import dhruvo from "./tperson.jpg"
+import rasel from "./rasel.png"
 export {
   logo,
   backend,
@@ -59,4 +60,6 @@ export {
   weather,
   product,
   news,
+  dhruvo,
+  rasel,
 };

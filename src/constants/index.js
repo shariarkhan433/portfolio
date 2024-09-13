@@ -23,6 +23,8 @@ import {
     product,
     weather,
     news,
+    dhruvo,
+    rasel,
   } from "../assets";
   
   export const navLinks = [
@@ -151,19 +153,19 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but shariar proved me wrong.",
+        "His attention to detail and clean, responsive design really elevate the user experience. Great job implementing such seamless functionality across different devices!",
       name: "Dhrubo",
-      designation: "Mid-Senior Developer",
+      designation: " Mid-Senior Developer",
       company: "Acme Co",
-      image: "D:/Full-Stack/portfolio/src/assets/tperson.jpg ",
+      image: dhruvo,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've never met a web developer who truly cares about their clients' success like he does. His dedication to understanding client needs and commitment to delivering results set him apart from the rest.",
+      name: "Rasel",
+      designation: "Senior Developer",
+      company: "Datapath Ltd.",
+      image: rasel,
     },
   ];
   

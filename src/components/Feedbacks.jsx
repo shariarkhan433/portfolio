@@ -18,8 +18,8 @@ const FeedbackCard= ({index,testimonial,name, designation, company, image})=>(
         <p className="text-white font-medium text-[16px]">
           <span className="blue-text-gradient">@</span>{name}
         </p>
-        <p className="mt-1 text-secondary text-[12px]">
-          {designation} of {company}
+        <p className="mt-1 text-secondary text-[12px] gap-4">
+         {designation} of {company}
         </p>
       </div>
       <img src={image} alt={`feedback-by-${name}`} className="w-10 h-10 rounded-full
@@ -33,8 +33,8 @@ const Feedbacks = () => {
     <div className="mt-12 bg-black-100 rounded-[20px]">
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
         <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What Others say</p>
         <h2 className={styles.sectionHeadText}>Testimonials</h2>
+        <p className={styles.sectionSubText}>What Others say</p>
         </motion.div>
       </div>
       <div className={`{styles.paddingX}-mt-20 pb-14 flex flex-wrap

@@ -15,8 +15,6 @@ Contact form
 1.  Clone the repository: `git clone <repository-url>`
 2.  Install dependencies: `npm install`
 3.  Start the development server: `npm start`
-## Live Demo
-(Optional: Add a link to your live demo if deployed)
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 ## License

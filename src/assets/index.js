@@ -30,7 +30,10 @@ import weather from "./weather.png";
 import product from "./productify.png";
 import news from "./news.png";
 import dhruvo from "./tperson.jpg"
-import rasel from "./rasel.png"
+import rasel from "./rasel.png";
+import eagle from "./eagle.jpg";
+import bank from "./bank.png";
+import linkedin from "./linkedin.png";
 export {
   logo,
   backend,
@@ -62,4 +65,7 @@ export {
   news,
   dhruvo,
   rasel,
+  eagle,
+  bank,
+  linkedin
 };

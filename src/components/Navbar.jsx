@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { styles } from '../styles'
 import { navLinks } from '../constants'
-import { logo, menu, close } from '../assets'
+import { logo, menu, close, github, linkedin } from '../assets'
 
 
 const Navbar = () => {
@@ -23,7 +23,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className='w-9 h-9 object-contain' />
-          
+
           <p className='text-white text-[18px] font-bold cursor-pointer'>Shariar Khan &nbsp;<span
           >| JavaScript Master</span></p>
         </Link>
@@ -42,6 +42,16 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li className='flex items-center'>
+            <a href="https://github.com/shariarkhan433" target="_blank" rel="noopener noreferrer">
+              <img src={github} alt="GitHub" className='w-6 h-6 object-contain' />
+            </a>
+          </li>
+          <li className='flex items-center'>
+            <a href="https://www.linkedin.com/in/shariar-khan-a6a87826a/" target="_blank" rel="noopener noreferrer">
+              <img src={linkedin} alt="GitHub" className='w-6 h-6 object-contain' />
+            </a>
+          </li>
         </ul>
         <div className='sm:hidden flex flex-1  justify-end items-center'>
 
@@ -74,7 +84,7 @@ const Navbar = () => {
         </div>
 
       </div>
-    </nav>
+    </nav >
   )
 }
 
